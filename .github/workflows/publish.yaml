@@ -10,3 +10,4 @@ jobs:
         uses: docker/build-push-action@v6.6.1
         with:
           push: true
+          tags: latest
